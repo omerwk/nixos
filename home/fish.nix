@@ -4,7 +4,6 @@
 	programs.fish = {
 		enable = true;
 
-
 		interactiveShellInit = ''
 			set -g fish_greeting
 		'';
@@ -15,6 +14,11 @@
 				src = pkgs.fishPlugins.tide;
 			}
 		];
+	};
+
+	programs.zoxide = {
+		enable = true;
+		enableFishIntegration = true;	
 	};
 
 	xdg.configFile."fish/functions".source = ./fish/functions;

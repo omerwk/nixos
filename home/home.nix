@@ -4,6 +4,8 @@
 	imports = [
 		./kitty.nix
 		./fish.nix
+		./fastfetch.nix
+		./git.nix
 	];
 
 

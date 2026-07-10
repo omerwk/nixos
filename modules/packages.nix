@@ -19,6 +19,7 @@
 		tree
 		fastfetch
 		thunar
+		spotify
 		discord
 		steam
 		github-cli

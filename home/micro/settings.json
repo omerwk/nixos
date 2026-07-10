@@ -1,0 +1,8 @@
+{
+	"colorscheme": "tokyonight",
+	"status": true,
+	"diffgutter": true,
+	"scrollbar": true,
+	"savecursor": true,
+	"basename": true
+}
