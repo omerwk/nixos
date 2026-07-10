@@ -11,6 +11,7 @@
 		fish
 		micro
 		kitty
+		vicinae
 		zoxide
 		fzf
 		librewolf
