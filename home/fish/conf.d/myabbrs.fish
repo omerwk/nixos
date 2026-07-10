@@ -1,0 +1,5 @@
+abbr -a -- config 'cd ~/.config/'
+abbr -a -- dls 'cd ~/Downloads/'
+abbr -a -- img 'kitten icat'
+abbr -a -- rebuild 'sudo nixos-rebuild switch --flake ./'
+abbr -a -- rebuildhome 'home-manager switch --flake ./'
