@@ -4,5 +4,7 @@
 	"diffgutter": true,
 	"scrollbar": true,
 	"savecursor": true,
+	"softwrap": true,
+	"wordwrap": true,
 	"basename": true
 }

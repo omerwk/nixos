@@ -6,6 +6,7 @@
 		./fish.nix
 		./fastfetch.nix
 		./git.nix
+		./micro.nix
 	];
 
 

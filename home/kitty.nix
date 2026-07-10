@@ -15,7 +15,7 @@
 			confirm_os_window_close = 0;
 			window_padding_width = 8;
 			background_blur = 1;
-			background_opacity = "0.85";
+			background_opacity = "0.95";
 			
 			shell = "fish";
 			scrollback_lines = 3000;
