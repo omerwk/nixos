@@ -18,6 +18,9 @@
 		tree
 		fastfetch
 		thunar
+		discord
+		steam
+		github-cli
 		nerd-fonts.caskaydia-mono
 	  ];
 }

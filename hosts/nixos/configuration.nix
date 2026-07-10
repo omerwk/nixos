@@ -18,6 +18,7 @@
   boot.loader.efi.canTouchEfiVariables = true;
 
   nix.settings.experimental-features = ["nix-command" "flakes"];
+  nixpkgs.config.allowUnfree = true;
 
   # Use latest kernel.
   boot.kernelPackages = pkgs.linuxPackages_latest;
