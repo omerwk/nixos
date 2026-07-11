@@ -19,10 +19,12 @@
 		home-manager
 		tree
 		fastfetch
-		thunar
+		papirus-icon-theme
+		volantes-cursors
 		spotify
-		discord
 		steam
+		thunar
+		discord
 		bat
 		blueman
 		bluez
@@ -30,7 +32,5 @@
 		nerd-fonts.caskaydia-mono
 	  ];
 
-	 programs.steam.extraCompatPackages = with pkgs; [
-	 	proton-ge-bin
-	 ];
+	 
 }

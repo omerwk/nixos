@@ -9,7 +9,7 @@
 			enable = true;
 
 			workspace = {
-				cursor.theme = "capitaine-cursors";
+				cursor.theme = "volantes_cursors";
 				iconTheme = "Papirus-Dark";
 				colorScheme = "TokyoNight";
 				clickItemTo = "select";
@@ -108,7 +108,6 @@
 								};
 							};
 						}
-						"Plasma.Control.Hub"
 					];					
 				}
 			];
