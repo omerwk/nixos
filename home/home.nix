@@ -7,6 +7,7 @@
 		./fastfetch.nix
 		./git.nix
 		./micro.nix
+		./plasma.nix
 	];
 
 
