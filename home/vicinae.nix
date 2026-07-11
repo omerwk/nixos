@@ -10,6 +10,8 @@
 
 		settings = {
 			search_files_in_root = true;
+			close_on_focus_loss = true;
+			close_on_escape = true;
 			font = {
 				normal = {
 					size = 11;
@@ -17,8 +19,14 @@
 				};	
 			};
 			theme = {
-				name = "Tokyo Night";
-				icon_theme = "Papirus-Dark";
+				light = {
+				    name = "tokyo-night";
+				    icon_theme = "Papirus-Dark";
+				};
+				dark = {
+				    name = "tokyo-night";
+				    icon_theme = "Papirus-Dark";
+				};
 			};
 		};
 	};
