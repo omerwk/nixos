@@ -8,6 +8,7 @@
 		./git.nix
 		./micro.nix
 		./plasma.nix
+		./vicinae.nix
 	];
 
 

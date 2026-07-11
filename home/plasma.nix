@@ -8,13 +8,15 @@
 	programs.plasma = {
 			enable = true;
 
-
 			workspace = {
-				cursor.theme = "Bibata-Modern-Ice";
+				cursor.theme = "capitaine-cursors";
 				iconTheme = "Papirus-Dark";
-				lookAndFeel = "org.kde.breezedark.desktop";
+				colorScheme = "TokyoNight";
 				clickItemTo = "select";
-				# wallpaper = "./images/wallpapers/wallhaven-w5d8jr.jpg";
+				windowDecorations.library = "org.kde.kwin.aurorae";
+				windowDecorations.theme = "Layan";
+				soundTheme = "freedesktop";
+				wallpaper = ./images/wallpapers/wallhaven-6lpdjl.jpg;
 			};
 
 			fonts = {
@@ -30,9 +32,16 @@
 				command = "kitty";
 			};
 
+			hotkeys.commands."launch-vicinae" = {
+				name = "Launch Vicinae";
+				key = "Alt+Space";
+				command = "vicinae toggle";
+			};
+
 			panels = [
 				{
 					location = "bottom";
+					height = 36;
 					widgets = [
 					
 						{
@@ -52,21 +61,26 @@
 									icon = "view-media-track";
 								};
 								playbackSource = "auto";
-								musicControls.showPlaybackControls = true;
+								musicControls.showPlaybackControls = false;
 								songText = {
 									displayInSeparateLines = false;
-									maximumWidth = 640;
+									maximumWidth = 200;
+									scrolling = {
+										enable = true;
+										behavior = "scrollOnHover";
+									};
 								};
+				
 							};
 						}
 						"org.kde.plasma.panelspacer"
 						{
 							iconTasks = {
 								launchers = [
-									"applications:librewolf"
-									"applications:thunar"
-									"applications:discord"
-									"applications:spotify"	
+									"applications:librewolf.desktop"
+									"applications:thunar.desktop"
+									"applications:discord.desktop"
+									"applications:spotify.desktop"	
 								];
 							};
 						}
