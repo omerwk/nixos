@@ -89,7 +89,26 @@
 						"org.kde.plasma.volume"
 						"org.kde.plasma.keyboardlayout"
 						"org.kde.plasma.networkmanagement"
-						"org.kde.plasma.digitalclock"
+						"org.kde.plasma.notifications"
+						{
+							digitalClock = {
+								time = {
+									showSeconds = "never";
+									format = "12h";
+								};
+								font = {
+									family = "CaskaydiaMono Nerd Font";
+									bold = true;
+									size = 10;
+								};
+								settings = {
+									Appearance = {
+										showDate = false;
+									};
+								};
+							};
+						}
+						"Plasma.Control.Hub"
 					];					
 				}
 			];

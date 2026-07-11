@@ -23,7 +23,14 @@
 		spotify
 		discord
 		steam
+		bat
+		blueman
+		bluez
 		github-cli
 		nerd-fonts.caskaydia-mono
 	  ];
+
+	 programs.steam.extraCompatPackages = with pkgs; [
+	 	proton-ge-bin
+	 ];
 }

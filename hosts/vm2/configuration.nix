@@ -15,7 +15,7 @@
       ../../modules/users.nix
       ../../modules/networking.nix
       ../../modules/services.nix
-      ../../modules/core.nix
+      ../../modules/base.nix
     ];
 
   system.stateVersion = "26.05"; # Did you read the comment?
