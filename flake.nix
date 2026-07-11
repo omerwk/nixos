@@ -11,9 +11,16 @@
 	};
 
 	outputs = {nixpkgs, home-manager, ... }: {
-		nixosConfigurations.nixos = nixpkgs.lib.nixosSystem {
-			system = "x86_64-linux";
-			modules = [ ./hosts/nixos/configuration.nix ];
+		nixosConfigurations = {
+			vm = nixpkgs.lib.nixosSystem {
+				system = "x86_64-linux";
+				modules = [ ./hosts/vm/configuration.nix ];
+			};
+
+			vm2 = nixpkgs.lib.nixosSystem {
+				system = "x86_64-linux";
+				modules = [ ./hosts/vm2/configuration.nix ];
+			};
 		};
 
 		homeConfigurations.omer = home-manager.lib.homeManagerConfiguration {
@@ -21,5 +28,4 @@
 			modules = [ ./home/home.nix ];
 		};
 	};
-
 }
