@@ -9,6 +9,7 @@
 		unzip
 		btop
 		fish
+		whatsapp-electron
 		micro
 		kitty
 		vicinae

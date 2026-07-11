@@ -80,7 +80,8 @@
 									"applications:librewolf.desktop"
 									"applications:thunar.desktop"
 									"applications:discord.desktop"
-									"applications:spotify.desktop"	
+									"applications:spotify.desktop"
+									"applications:com.github.dagmoller.whatsapp-electron.desktop"
 								];
 							};
 						}
