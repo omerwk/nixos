@@ -19,6 +19,7 @@
       ../../modules/networking.nix
       ../../modules/services.nix
       ../../modules/base.nix
+      ../../modules/sddm.nix
     ];
 
   system.stateVersion = "26.05"; # Did you read the comment?

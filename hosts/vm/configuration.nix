@@ -19,6 +19,7 @@
       ../../modules/networking.nix
       ../../modules/services.nix
       ../../modules/base.nix
+      ../../modules/sddm.nix
     ];
 
 		
