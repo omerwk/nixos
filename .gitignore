@@ -1,0 +1,11 @@
+#backup files
+*.bak
+
+#temp
+*.tmp
+
+#editor
+.vscode/
+.idea/
+*.swp
+*.swo
