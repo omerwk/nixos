@@ -2,6 +2,8 @@
 
 {
 	environment.systemPackages = with pkgs; [
+	
+		# cli
 		git
 		wget
 		curl
@@ -9,27 +11,33 @@
 		unzip
 		btop
 		fish
-		whatsapp-electron
-		micro
-		kitty
-		vicinae
+		bat
 		zoxide
 		fzf
-		librewolf
-		home-manager
 		tree
 		fastfetch
-		papirus-icon-theme
-		volantes-cursors
+
+		# terminal
+		micro
+		kitty
+		
+		
+		# gaming
 		prismlauncher
 		gamemode
-		thunar
-		spotify
+		whatsapp-electron
 		steam
-		thunar
+		
+		# apps
+		spotify
 		discord
-		bat
+		librewolf
+
+		# misc
 		blueman
+		vicinae
+		papirus-icon-theme
+		volantes-cursors
 		bluez
 		github-cli
 		nerd-fonts.caskaydia-mono
