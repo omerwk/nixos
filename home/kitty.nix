@@ -32,5 +32,5 @@
 	};
 
 	home.file.".config/kitty/themes/tokyonight.conf".source =
-		    ./themes/tokyonight.conf;
+		    ../assets/themes/tokyonight.conf;
 }

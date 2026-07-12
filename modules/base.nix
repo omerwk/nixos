@@ -10,7 +10,7 @@
  	  	efiSupport = true;
  	  	efiInstallAsRemovable = true;
  	  	maxGenerations = 25;
- 	  	style.wallpapers = [ ../home/images/wallpapers/Finch.jpeg ];
+ 	  	style.wallpapers = [ ../assets/wallpapers/Finch.jpeg ];
  	  };
 	  boot.loader.efi.canTouchEfiVariables = true;
 

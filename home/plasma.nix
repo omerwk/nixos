@@ -12,7 +12,7 @@
 				windowDecorations.library = "org.kde.kwin.aurorae";
 				windowDecorations.theme = "Layan";
 				soundTheme = "freedesktop";
-				wallpaper = ./images/wallpapers/wallhaven-6lpdjl.jpg;
+				wallpaper = ../assets/wallpapers/wallhaven-6lpdjl.jpg;
 			};
 
 			fonts = {
