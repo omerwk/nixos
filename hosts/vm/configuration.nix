@@ -5,6 +5,9 @@
 { config, pkgs, ... }:
 
 {
+
+  networking.hostName = "vm";	
+  
   imports =
     [ # Include the results of the hardware scan.
       /etc/nixos/hardware-configuration.nix
@@ -18,5 +21,6 @@
       ../../modules/base.nix
     ];
 
+		
   system.stateVersion = "26.05"; # Did you read the comment?
 }

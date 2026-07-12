@@ -5,6 +5,9 @@
 { config, pkgs, ... }:
 
 {
+
+  networking.hostName = "vm2";
+
   imports =
     [ # Include the results of the hardware scan.
       /etc/nixos/hardware-configuration.nix

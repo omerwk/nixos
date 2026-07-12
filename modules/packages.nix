@@ -32,6 +32,7 @@
 		spotify
 		discord
 		librewolf
+		thunar
 
 		# misc
 		blueman
