@@ -21,6 +21,9 @@
 		fastfetch
 		papirus-icon-theme
 		volantes-cursors
+		prismlauncher
+		gamemode
+		thunar
 		spotify
 		steam
 		thunar

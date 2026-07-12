@@ -1,10 +1,6 @@
 { pkgs, ... }:
 
 {
-	imports = [
-		<plasma-manager/modules>	
-	];
-
 	programs.plasma = {
 			enable = true;
 
@@ -94,12 +90,7 @@
 							digitalClock = {
 								time = {
 									showSeconds = "never";
-									format = "12h";
-								};
-								font = {
-									family = "CaskaydiaMono Nerd Font";
-									bold = true;
-									size = 10;
+									format = "24h";
 								};
 								settings = {
 									Appearance = {
